@@ -1,8 +1,8 @@
 # Curriculum vitae
-Type of [challenge](https://github.com/becodeorg/BXL-Swartz-4-27/blob/master/1.The-Field/4.HTML-CSS/introduction/04-curriculum-vitae.adoc): *learning*
-Duration: *120 min*
-Deployment strategy: *Github page*
-Team challenge: *solo*
+* Type of [challenge](https://github.com/becodeorg/BXL-Swartz-4-27/blob/master/1.The-Field/4.HTML-CSS/introduction/04-curriculum-vitae.adoc): *learning*
+* Duration: *120 min*
+* Deployment strategy: *Github page*
+* Team challenge: *solo*
 
 ## Learning objectives
 At the end of this challenge you should be able to:
