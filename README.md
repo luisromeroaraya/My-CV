@@ -13,10 +13,10 @@ You have to make your CV as a website inside a new repository called My-CV. To d
 
 ## Instructions
 - [x] create the repository
-- [ ] write your CV in HTML and CSS
-- [ ] implement the CSS [grid system](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
-- [ ] commit/push
-- [ ] deploy on a Github page
+- [x] write your CV in HTML and CSS
+- [x] implement the CSS [grid system](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+- [x] commit/push
+- [x] deploy on a Github page
 
 ## Resources
 * [grid garden](http://cssgridgarden.com/)
