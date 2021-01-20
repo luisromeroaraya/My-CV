@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0px;
 }
 
 html {
@@ -15,5 +15,54 @@ body {
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
-    color: grey;
+    color: blanchedalmond;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 25% auto 35%;
+    grid-template-rows: 25% 20% 35% auto;
+}
+
+#photo {
+    background-image: url(https://www.thedentedhelmet.com/forums/attachments/bobdoug_forward-jpg.127016/);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+}
+
+#banner {
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2013/03/24/62938/68f9295c6eb2504ce83dcb6fd12148b0-700.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+
+#about {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+
+#info {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+#extra {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+#timeline {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+#stories {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
 }
