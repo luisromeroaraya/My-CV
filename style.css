@@ -105,6 +105,10 @@ li::marker {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     margin: auto;
+    background-color: #d0ac4e;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
 
 #name {
