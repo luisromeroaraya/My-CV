@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    line-height: 1.6;
 }
 
 html {
@@ -13,26 +14,41 @@ body {
     height: 100%;
     width: 50%;
     margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 20px 20px 20px 10px #464646;
 }
 
 h1 {
+    font-size: 28px;
     color: white;
 }
 
 h2 {
+    font-size: 24px;
     color: white;
 }
 
 h3 {
+    font-size: 20px;
     padding: 5px;
+    padding-left: 15px;
     background-color: white;
     border-left: 10px solid #d0ac4e;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p, li {
+    font-size: 16px;
 }
 
 #grid {
     display: grid;
     grid-template-columns: [L] 3fr [C] 7fr [R];
-    grid-template-rows: [a] 5% [b] 15% [c] 80% [d];
+    grid-template-rows: [a] 4% [b] 16% [c] 80% [d];
 }
 
 #gridL {
@@ -40,7 +56,7 @@ h3 {
     grid-row: 3 / 4;
     display: grid;
     grid-template-columns: subgrid [sub-LL] [sub-LR];
-    grid-template-rows: [sub-a] 25% [sub-b] 20% [sub-c] 32.5% [sub-d] 22.5% [sub-e];
+    grid-template-rows: [sub-a] 27.5% [sub-b] 20% [sub-c] 30% [sub-d] 22.5% [sub-e];
 }
 
 #gridR {
@@ -48,7 +64,7 @@ h3 {
     grid-row: 3 / 4;
     display: grid;
     grid-template-columns: subgrid [sub-RL] [sub-RR];
-    grid-template-rows: [sub-f] 60% [sub-g] 40% [sub-h];
+    grid-template-rows: [sub-f] 55% [sub-g] 45% [sub-h];
 }
 
 #headerL {
@@ -64,73 +80,75 @@ h3 {
 }
 
 #photo {
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     background-color: #272928;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 }
 
 #name {
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #272928;
     grid-column: 2 / 4;
     grid-row: 2 / 3;
 }
 
 #aboutme {
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #eaeceb;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    text-align: justify;
 }
 
 #contacts {
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #eaeceb;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 }
 
 #skills {
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #eaeceb;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
 }
 
 #interest {
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #eaeceb;
     grid-column: 1 / 2;
     grid-row: 4 / 5;
 }
 
 #experience {
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 30px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #fefefe;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    text-align: justify;
 }
 
 #education {
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 30px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #fefefe;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    text-align: justify;
 }
