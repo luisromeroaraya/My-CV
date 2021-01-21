@@ -64,6 +64,15 @@ li::marker {
     grid-template-rows: [a] 4% [b] 16% [c] 80% [d];
 }
 
+#gridbanner {
+    background-color: #272928;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-row: auto;
+}
+
 #gridL {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
@@ -93,18 +102,18 @@ li::marker {
 }
 
 #photo {
-    background-color: #272928;
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
+    margin: auto;
 }
 
 #name {
     padding: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #272928;
-    grid-column: 2 / 4;
-    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin: auto;
 }
 
 #aboutme {
