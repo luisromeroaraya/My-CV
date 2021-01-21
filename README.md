@@ -24,3 +24,4 @@ You have to make your CV as a website inside a new repository called My-CV. To d
 * [Grids tutorial](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 Link to [My-CV page](https://luisromeroaraya.github.io/My-CV/)
+Link to [CV that I've used as a reference](https://www.freepik.com/free-vector/modern-simple-template-curriculum-elegant-resume-template_7180088.htm)
