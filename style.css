@@ -41,9 +41,22 @@ h4 {
     font-size: 18px;
 }
 
+h5 {
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    background-color: #eaeceb;
+    border-left: 10px solid #d0ac4e;
+}
+
+
 p, li {
     font-size: 16px;
 }
+
+li::marker {
+    color: #d0ac4e;
+  }
 
 #grid {
     display: grid;
